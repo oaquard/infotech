@@ -1,0 +1,90 @@
+body 
+{
+    background-image: url('sakura.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+h1 
+{
+    font-size:5em;
+    font-weight:lighter;
+    color: #b22708;
+}
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table 
+{ 
+    width:auto;
+    margin:auto;
+    text-align:center;
+    border-color: rgb(255, 162, 0); 
+    border-style: solid; 
+    padding: 10px;   
+    border-radius: 25px;
+} 
+div 
+{
+    margin:auto;
+    background-color: palevioletred;
+}
+#left 
+{
+    float: left;
+    width: 400px;
+    background-color: #CB87AF;
+    border-radius: 5px;
+}
+td 
+{ 
+    border-color: #FFBD32; 
+    border-style: solid; 
+} 
+p
+{
+    text-align:center;
+    color:rgb(154, 6, 6);
+}
+#para1 
+{
+    text-align: center;
+    color: blue;
+}
+p.left 
+{
+    text-align: left;
+    color: green;
+}
+.header 
+{
+    text-align:center;
+    position: static; 
+    background-color: rgb(246, 139, 142);
+}
+.relative 
+{
+    position: relative;
+    left: 30px;width: 400px;
+    height: 200px;
+    background-color: blanchedalmond;
+}
+.absolute 
+{
+    position: absolute; 
+    bottom: 0; right: 0; 
+    width: 200px; 
+    height: 100px; 
+    background-color: burlywood;
+}
+.fixed 
+{
+    position: fixed; 
+    bottom: 0; right: 0; 
+    width: 300px; 
+    background-color: brown;
+}
+

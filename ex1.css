@@ -1,0 +1,102 @@
+body {
+        background-color: rgb(249, 208, 154); /* Adjust path if image is in a different folder */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    h1 
+    {
+        padding: 10px;  
+        border-radius: 25px;
+        width: 30%;
+        margin: auto;
+    }
+	h2 
+    {
+        text-align:center;
+        font-size:5em;
+        font-weight:lighter;
+        color: #b22708; margin-left: 20px;}
+    img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table 
+    { 
+        width:auto;
+        margin:auto;
+        text-align:center;
+        border-color: rgb(255, 162, 0); 
+        border-style: solid; 
+        padding: 10px;   
+        border-radius: 25px;
+        } 
+    div 
+    {
+        margin:auto;
+    }
+    td 
+    { 
+        border-color: #FFBD32; 
+        border-style: solid; 
+        } 
+    p
+    {
+        text-align:center;
+        color:rgb(154, 6, 6);
+    }
+    #para1 
+    {
+        text-align: center;
+        color: blue;
+    }
+    p.left 
+    {
+        text-align: left;
+        color: green;
+    }
+    .static 
+    {
+        text-align: center;
+        position: static; 
+        background-color: aqua;
+    }
+    .relative 
+    {
+        position: relative;
+        left: 30px;width: 400px;
+        height: 200px;
+        background-color: blanchedalmond;
+    }
+    .absolute 
+    {
+        float: center; 
+        bottom: 0; right: 0; 
+        height: 100px; 
+        background-color: burlywood;
+    }
+     .fixed 
+     {
+        position: center; 
+        text-align: center;
+        bottom: 0;
+        background-color: rgb(255, 0, 0);
+    }
+    #left 
+    {
+        float: left;
+        width: 120px;
+        background-color: #CB87AF;
+        border-radius: 5px;
+    }
+    #main 
+    {
+        padding-left: 130px; 
+        margin: 100px;;
+        border-width: var(100px);
+        background-color: #CB87AF;
+        text-align: center;
+    }
+
