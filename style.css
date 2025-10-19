@@ -27,7 +27,7 @@ img
 #subhead 
 {
     margin:auto;
-    background-color: palevioletred;
+    background-color: #d87093;
 }
 #left 
 {
@@ -64,6 +64,7 @@ p
     position: static; 
     background-color: rgb(246, 139, 142);
 }
+
 
 
 
