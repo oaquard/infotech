@@ -76,3 +76,14 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+table { 
+    width:auto;
+    margin:auto;
+    text-align:center;
+    border-color: rgb(255, 162, 0); 
+    border-style: solid; 
+    padding: 10px;   
+    border-radius: 25px;
+} 
+
