@@ -27,6 +27,10 @@ p {
     color: rgb(154, 6, 6);
 }
 
+/* Sigh, if only I could have understood flex boxes before I got too deep into this project.
+They were hard to get the hang of, but so useful. I would have organized my page in rows instead
+of columns had I got the hang of them sooner. Alas! */
+
 .body-main {
     display: flex;
     flex-wrap: wrap;
@@ -43,14 +47,6 @@ p {
     flex: 1 1 300px;
     background-color: #CB87AF;
     border-radius: 5px;
-}
-
-#center {
-    float: none;
-    display: block;
-    margin: auto;
-    width: auto;
-    border-radius: 4px;
 }
 
 #review {
